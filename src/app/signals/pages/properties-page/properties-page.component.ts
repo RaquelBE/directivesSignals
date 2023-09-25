@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./properties-page.component.css']
 })
 export class PropertiesPageComponent {
-
+  onFieldUpdated( field: string, value: string) {
+    console.log( {field, value})
+  }
 }
